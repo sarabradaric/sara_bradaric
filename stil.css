@@ -1,41 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
 p {
-	color: green;
-	font-family: Costantia, "Lucida Bright", "Dejavu Serif", Georgia, "serif";
+	color: black;
+	font-family: Costantia, Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'"Dejavu Serif", Georgia, "serif";
 	font-size: 16px; 
 	line-height: 18px;
 	width: 600px;
-	background-color: antiquewhite;
+	background-color: lightgreen;
 	padding: 20px;
 }
-.paragraf_2 {color: darkmagenta; background-color: rgba(255, 255, 255, 0.9)}
-.novi_blok {
-	background-color: rgba(255, 255, 255, 0.5);
-	padding:20px;
-	margin:20px;
-	width:50%;
+
+ @font-face {
+	font-family: 'SaraBradaric33';
+	src: url("font/SaraBradaric33.ttf");
 }
 
 h1, h2{
-	font-family: Gotham, "Helvetica Neue", Helvetica, Aria, "sans-serif";
-	color: mediumpurple;
+	font-family: 'SaraBradaric33';
+	color: darkgreen;
+	padding: 10px;
+	line-height: 18px;
+	width: 600px;
+	background-color: greenyellow;
+	padding: 30px;
 }
 span {color:rgb(255, 0, 255);}
 .pozadina{
-	background-image: url("Slike/leptiri.jpg");
-}
-.drugapozadina {
-	background-color: darkgray;
+	background-image: url("slike/artur-luczka-loAfOVk1eNc-unsplash.jpg");
 }
 a:link {
 	color: black;
-	background-color: white;
-	padding: 5px;
-	line-height: 40px;
-	border: 1px solid #000000;
 }
 a:hover {
 	background-color: darkgrey;
-}
-img {
-	height: 200px
 }
